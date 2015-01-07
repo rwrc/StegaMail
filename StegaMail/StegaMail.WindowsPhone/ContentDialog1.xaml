@@ -1,0 +1,29 @@
+﻿<ContentDialog
+    x:Class="StegaMail.ContentDialog1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StegaMail"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Konfiguracja"
+    PrimaryButtonText="sign in"  
+    SecondaryButtonText="cancel"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <TextBox Name="login" Header="Login"/>
+        <PasswordBox  Name="password" Header="Password"/>
+        <CheckBox Name="showPassword" Content="Show password"/>
+        <TextBox Name="pop3" Header="Serwer POP3"/>
+        <TextBox Name="smtp" Header="Serwer SMTP"/>
+        <!-- Content body -->
+        <TextBlock Name="body" Style="{StaticResource MessageDialogContentStyle}" TextWrapping="Wrap">
+            <TextBlock.Text>
+                W przypadku niestandardowego numeru portu należy podać go po adresie serwera odzielony znakiem dwukropka
+                np. pop3.mail.pl:123
+            </TextBlock.Text>
+        </TextBlock>
+    </StackPanel>
+</ContentDialog>

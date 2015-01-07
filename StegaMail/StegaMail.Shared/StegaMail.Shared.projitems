@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0aa98881-4a75-4a7d-9873-6ee8bf3e1a86</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>StegaMail</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Create.xaml.cs">
+      <DependentUpon>Create.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\DCT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\DecodedJpeg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Decoder\HuffmanTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Decoder\JpegComponent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Decoder\JpegDecoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Decoder\JpegFrame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Decoder\JpegHuffmanTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Decoder\JpegQuantizationTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Decoder\JpegScan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Encoder\JpegEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Error.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\FDCT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Filter\Convolution.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Filter\FilterBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Filter\FilterLowpassResize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Filter\FilterNNResize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Filter\GrayImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Image.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\IO\BinaryReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\IO\BinaryWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\IO\JpegBinaryReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\JpegMarker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Plik.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\ProsteKodowanie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Resize\ImageResizer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\Stega.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\YCbCr.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FJCore\ZigZag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MailClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)settings.xaml.cs">
+      <DependentUpon>settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)zalacznik.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Create.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_about.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_accept.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_add_to_queue.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_attachment.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_cancel.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_discard.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_download.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_full_screen.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_important.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_new.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_new_attachment.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_new_email.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_next_item.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_previous_item.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_read.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_refresh.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_replay.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_save.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_send_now.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_settings.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_unread.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ic_action_upload.png" />
+    <Content Include="$(MSBuildThisFileDirectory)FJCore\IJG.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)FJCore\JAI.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)FJCore\License.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)FJCore\README.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "note", "note", "{F8E6A8BD-85CA-4C20-B7EC-3B4576FD6CA6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "note.Shared", "StegaMail\StegaMail.Shared\note.Shared.shproj", "{0AA98881-4A75-4A7D-9873-6EE8BF3E1A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "note.Windows", "StegaMail\StegaMail.Windows\note.Windows.csproj", "{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "note.WindowsPhone", "StegaMail\StegaMail.WindowsPhone\note.WindowsPhone.csproj", "{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		StegaMail\StegaMail.Shared\StegaMail.Shared.projitems*{49511bc3-39fe-4f4a-aba0-ad9b8af8df35}*SharedItemsImports = 4
+		StegaMail\StegaMail.Shared\StegaMail.Shared.projitems*{0aa98881-4a75-4a7d-9873-6ee8bf3e1a86}*SharedItemsImports = 13
+		StegaMail\StegaMail.Shared\StegaMail.Shared.projitems*{ffe411c3-cfef-4ee9-ba38-5949f5b32a44}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|ARM.ActiveCfg = Debug|ARM
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|ARM.Build.0 = Debug|ARM
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|ARM.Deploy.0 = Debug|ARM
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|x64.ActiveCfg = Debug|x64
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|x64.Build.0 = Debug|x64
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|x64.Deploy.0 = Debug|x64
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|x86.ActiveCfg = Debug|x86
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|x86.Build.0 = Debug|x86
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Debug|x86.Deploy.0 = Debug|x86
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|ARM.ActiveCfg = Release|ARM
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|ARM.Build.0 = Release|ARM
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|ARM.Deploy.0 = Release|ARM
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|x64.ActiveCfg = Release|x64
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|x64.Build.0 = Release|x64
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|x64.Deploy.0 = Release|x64
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|x86.ActiveCfg = Release|x86
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|x86.Build.0 = Release|x86
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35}.Release|x86.Deploy.0 = Release|x86
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|ARM.Build.0 = Debug|ARM
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|x86.ActiveCfg = Debug|x86
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|x86.Build.0 = Debug|x86
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Debug|x86.Deploy.0 = Debug|x86
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|ARM.ActiveCfg = Release|ARM
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|ARM.Build.0 = Release|ARM
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|ARM.Deploy.0 = Release|ARM
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|x64.ActiveCfg = Release|Any CPU
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|x86.ActiveCfg = Release|x86
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|x86.Build.0 = Release|x86
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AA98881-4A75-4A7D-9873-6EE8BF3E1A86} = {F8E6A8BD-85CA-4C20-B7EC-3B4576FD6CA6}
+		{49511BC3-39FE-4F4A-ABA0-AD9B8AF8DF35} = {F8E6A8BD-85CA-4C20-B7EC-3B4576FD6CA6}
+		{FFE411C3-CFEF-4EE9-BA38-5949F5B32A44} = {F8E6A8BD-85CA-4C20-B7EC-3B4576FD6CA6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="7caf563d-46fd-41db-aeb6-df856614eeb7" Publisher="CN=rwrc" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>StegaMail.Windows</DisplayName>
+    <PublisherDisplayName>rwrc</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="StegaMail.Windows.App">
+      <m2:VisualElements DisplayName="StegaMail.Windows" Square150x150Logo="Assets\ic_action_save.png" Square30x30Logo="Assets\ic_action_save.png" Description="StegaMail.Windows" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <m2:DefaultTile ShortName="StegaMail">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
